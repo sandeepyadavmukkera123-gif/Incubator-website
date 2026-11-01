@@ -1,0 +1,7 @@
+services:
+  student-innovation-hub:
+    build: .
+    container_name: student-innovation-hub
+    ports:
+      - \"8080:80\"
+    restart: unless-stopped
